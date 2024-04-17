@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./lib/jquery-3.7.1.min.js"></script>
+    <script defer src="./js/app.js"></script>
+    <title>NBA SCORE KEEPER HOME</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <section>
+      <nav>
+        <span id="logo"
+          ><img src="./img/nbalogo.png" alt="nbalogo" width="20" height="44"
+        /></span>
+        <li>Login</li>
+        <li>Sign up</li>
+      </nav>
+    </section>
+    <section id="main-body">
+      <div id="title">
+        <hr />
+        <h1 id="on-page-title">SCORE KEEPER</h1>
+        <hr />
+      </div>
+      <div class="teams">
+        <div id="team1">
+          <img src="./img/heatlogo.jpeg" alt="team 1" width="90" height="85" />
+        </div>
+        <span>vs</span>
+        <div id="team2">
+          <img
+            src="./img/warriorslogo.jpeg"
+            alt="team 1"
+            width="90"
+            height="85"
+          />
+        </div>
+      </div>
+      <div class="score">
+        <div id="score1">0</div>
+        <span>-</span>
+        <div id="score2">0</div>
+      </div>
+      <footer id="home-score">
+        Home:
+        <input id="ft1" type="submit" value="free throw" />
+        <input id="2p1" type="submit" value="2 points" />
+        <input id="3p1" type="submit" value="3 points" />
+      </footer>
+      <footer id="away-score">
+        Away:
+        <input id="ft2" type="submit" value="free throw" />
+        <input id="2p2" type="submit" value="2 points" />
+        <input id="3p2" type="submit" value="3 points" />
+      </footer>
+    </section>
+  </body>
+</html>
