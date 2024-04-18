@@ -40,4 +40,33 @@ $(window).ready(() => {
     initialAwayScore += 3;
     $("#score2").text(initialAwayScore);
   });
+
+  //selecting the clear for home button
+  $("#clear1").click(() => {
+    if (initialHomeScore < 1) {
+      alert("home team score cannot be negative");
+    } else {
+      initialHomeScore--;
+      $("#score1").text(initialHomeScore);
+    }
+  });
+
+  //selecting the clear for away button
+  $("#clear2").click(() => {
+    if (initialAwayScore < 1) {
+      alert("Away team csore cannot be negative");
+    } else {
+      initialAwayScore--;
+      $("#score2").text(initialAwayScore);
+    }
+  });
+
+  //selecting the reset all button
+  $("#reset-all").click(() => {
+    initialHomeScore = 0;
+    initialAwayScore = 0;
+
+    $("#score1").text(initialHomeScore);
+    $("#score2").text(initialAwayScore);
+  });
 });
