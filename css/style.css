@@ -27,6 +27,7 @@ nav {
   margin-bottom: 1%;
   /* padding: 1% 2%; */
   /* border: 1px solid rgb(184, 183, 183); */
+  padding: 1% 0;
 }
 
 #logo {
@@ -38,6 +39,14 @@ li {
   display: flex;
   justify-content: space-evenly;
   padding: 2% 2%;
+}
+
+li:hover {
+  background-color: beige;
+  color: black;
+  /* margin: 1% 0%;
+  padding: 0 0; */
+  height: 10px;
 }
 
 #on-page-title {
