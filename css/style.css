@@ -37,11 +37,11 @@ li {
   padding: 2% 2%;
 }
 
-.on-page-title {
+#on-page-title {
   align-items: center;
   justify-content: center;
   /* padding: 0% 2%; */
-  font-family: Magneto Bold;
+  font-family: Jokerman;
 }
 
 #main-body {
